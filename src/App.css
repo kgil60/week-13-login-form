@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(61, 179, 94, 0.3);
+  height: 50vw;
+}
+
 .nav {
   padding: 15px;
   background-color: rgba(41, 255, 98, 0.2);
@@ -18,7 +26,7 @@
 .nav-link {
   list-style-type: none;
   font-weight: bold;
-  margin-right: 25px;
+  margin: 0 25px;
   font-size: 18px;
 }
 
@@ -29,4 +37,57 @@
 
 .nav-link:active {
   color: rgb(162, 250, 188)
+}
+
+.login-form-container {
+  text-align: center;
+  margin-top: 100px;
+  border: 2px solid rgb(6, 31, 13);
+  border-radius: 10px;
+  width: 25%;
+  padding: 50px;
+}
+
+.login-header {
+  padding: 15px;
+  font-size: 24px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.input-label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form-input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.submit-button {
+  padding: 15px;
+  width: 25%;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: rgb(13, 41, 21);
+  color: white;
+}
+
+.submit-button:hover {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.submit-button:active {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
